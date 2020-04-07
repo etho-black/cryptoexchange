@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://asymetrex.com/api/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - asymetrex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Apr 2020 18:14:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3780'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d28b3eb4396af13e87a6dae5d4b0da7b21586283265; expires=Thu, 07-May-20
+        18:14:25 GMT; path=/; domain=.asymetrex.com; HttpOnly; SameSite=Lax
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Request-Id:
+      - b2109a76-aadf-44f2-89d7-baa0e16b49ce
+      Etag:
+      - W/"95a476cf829664bdbfa56404baa6356d"
+      X-Runtime:
+      - '0.124998'
+      X-Powered-By:
+      - Phusion Passenger 6.0.4
+      X-Frame-Options:
+      - ALLOWALL
+      X-Content-Type-Options:
+      - nosniff
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5805ba672bbc5d17-DUR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ltcbtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","last":"0.1","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/LTC","currency":"Litecoin"}},"dogebtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","last":"0.00000029","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/DOGE","currency":"Dogecoin"}},"monbtc":{"at":1586283265,"ticker":{"buy":"0.000004","sell":"0.00000425","low":"0.0000042","high":"0.00000425","last":"0.00000425","vol":"174.81307645","volbtc":"0.00073841","volquote":"0.0007384055749125","change":"0.019184652","name":"BTC/MON","currency":"MoneyByte"}},"mondoge":{"at":1586283265,"ticker":{"buy":"0.00000001","sell":"0.0","low":"0.0","high":"0.0","last":"0.0","vol":"0.0","volbtc":"0.0","volquote":0,"change":0,"name":"DOGE/MON","currency":"MoneyByte"}},"ethobtc":{"at":1586283265,"ticker":{"buy":"0.00000025","sell":"0.00000065","low":"0.0","high":"0.0","last":"0.00000063","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/ETHO","currency":"Ether-1"}},"dogeltc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","last":"0.000007","vol":"0.0","volbtc":"0.0","volquote":0,"change":"0.0","name":"LTC/DOGE","currency":"Dogecoin"}},"xambtc":{"at":1586283265,"ticker":{"buy":"0.00000001","sell":"0.0000001","low":"0.0","high":"0.0","last":"0.0000001","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/XAM","currency":"Amity"}},"xerobtc":{"at":1586283265,"ticker":{"buy":"0.00000001","sell":"0.00000003","low":"0.00000001","high":"0.00000002","last":"0.00000001","vol":"35953.99606554","volbtc":"0.00036136","volquote":"0.0003613581406554","change":"-0.75","name":"BTC/XERO","currency":"Xerom"}},"cxbtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.00000002","low":"0.0","high":"0.0","last":"0.00000002","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/CX","currency":"Catalyst"}},"eoedoge":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.00000001","low":"0.0","high":"0.0","last":"0.00000001","vol":"0.0","volbtc":"0.0","volquote":0,"change":"0.0","name":"DOGE/EOE","currency":"808
+        Coin"}},"enixbtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.00000045","low":"0.0","high":"0.0","last":"0.00000046","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/ENIX","currency":"Enix"}},"athbtc":{"at":1586283265,"ticker":{"buy":"0.00000002","sell":"0.00000003","low":"0.0","high":"0.0","last":"0.00000002","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/ATH","currency":"ATH"}},"bitcbtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","last":"0.0","vol":"0.0","volbtc":"0","volquote":0,"change":0,"name":"BTC/BITC","currency":"BITC"}},"bitcltc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","last":"0.0","vol":"0.0","volbtc":"0.0","volquote":0,"change":0,"name":"LTC/BITC","currency":"BitCash"}},"prklbtc":{"at":1586283265,"ticker":{"buy":"0.00000005","sell":"0.00009876","low":"0.0","high":"0.0","last":"0.00000176","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/PRKL","currency":"Perkle"}},"ubqbtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.00001","low":"0.0","high":"0.0","last":"0.00001","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/UBQ","currency":"Ubiq"}},"aquabtc":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.00001","low":"0.0","high":"0.0","last":"0.000007","vol":"0.0","volbtc":"0","volquote":0,"change":"0.0","name":"BTC/AQUA","currency":"Aqua"}},"xeroetho":{"at":1586283265,"ticker":{"buy":"0.0","sell":"0.03","low":"0.0","high":"0.0","last":"0.035","vol":"0.0","volbtc":"0.0","volquote":0,"change":"0.0","name":"ETHO/XERO","currency":"XERO"}}}'
+    http_version: 
+  recorded_at: Tue, 07 Apr 2020 18:14:25 GMT
+recorded_with: VCR 4.0.0

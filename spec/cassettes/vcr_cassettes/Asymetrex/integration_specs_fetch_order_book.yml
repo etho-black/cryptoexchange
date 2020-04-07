@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://asymetrex.com/api/order_book.json?market=ethobtc
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - asymetrex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Apr 2020 18:14:26 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1488'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=de7437804df41a9820c488ae5ce5a3e211586283266; expires=Thu, 07-May-20
+        18:14:26 GMT; path=/; domain=.asymetrex.com; HttpOnly; SameSite=Lax
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Request-Id:
+      - 708bd75f-b824-4094-a60a-5f97e7fb5149
+      Etag:
+      - W/"524cfb1ca67914f5e1f24fbb444c67e5"
+      X-Runtime:
+      - '0.018905'
+      X-Powered-By:
+      - Phusion Passenger 6.0.4
+      X-Frame-Options:
+      - ALLOWALL
+      X-Content-Type-Options:
+      - nosniff
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5805ba6d99ef5d03-DUR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"asks":[{"id":998,"side":"sell","ord_type":"limit","price":"0.00000065","avg_price":"0.00000065","state":"wait","market":"ethobtc","time":"2020-04-03T07:38:47+08:00","volume":"28.72125","remaining_volume":"18.72125","executed_volume":"10.0","trades_count":1},{"id":963,"side":"sell","ord_type":"limit","price":"0.00000068","avg_price":"0.0","state":"wait","market":"ethobtc","time":"2020-04-01T07:50:49+08:00","volume":"147.0","remaining_volume":"147.0","executed_volume":"0.0","trades_count":0},{"id":784,"side":"sell","ord_type":"limit","price":"0.00000074","avg_price":"0.0","state":"wait","market":"ethobtc","time":"2020-03-19T19:24:54+08:00","volume":"1000.0","remaining_volume":"1000.0","executed_volume":"0.0","trades_count":0},{"id":586,"side":"sell","ord_type":"limit","price":"0.00000075","avg_price":"0.00000075","state":"wait","market":"ethobtc","time":"2020-03-07T16:44:24+08:00","volume":"1269.01280632","remaining_volume":"1109.27253966","executed_volume":"159.74026666","trades_count":2}],"bids":[{"id":1098,"side":"buy","ord_type":"limit","price":"0.00000025","avg_price":"0.0","state":"wait","market":"ethobtc","time":"2020-04-07T20:40:57+08:00","volume":"2273.8","remaining_volume":"2273.8","executed_volume":"0.0","trades_count":0},{"id":1093,"side":"buy","ord_type":"limit","price":"0.0000002","avg_price":"0.0","state":"wait","market":"ethobtc","time":"2020-04-07T11:52:46+08:00","volume":"32.3","remaining_volume":"32.3","executed_volume":"0.0","trades_count":0}]}'
+    http_version: 
+  recorded_at: Tue, 07 Apr 2020 18:14:26 GMT
+recorded_with: VCR 4.0.0

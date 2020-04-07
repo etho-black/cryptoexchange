@@ -38,6 +38,7 @@ Or install it yourself as:
 | Altmarkets        | Y       | Y [x]      | Y       |         | Y           | Y        | altmarkets        |       |
 | ANX               | Y       |            |         |         | User-Defined|          | anx               |       |
 | Artisturba        | Y       | Y [x]      | Y       |         | Y           | Y        | artisturba        |       |
+| Asymetrex         | Y       | Y          |         |         | Y           | Y        | asymetrex         |       |
 | Aphelion          | Y       |            |         |         | Y           | Y        | aphelion          |       |
 | Atomars           | Y       | Y          | Y       |         | Y           | Y        | atomars           |       |
 | AXNET (halted)    | Y       | Y          | Y       |         | Y           | Y        | axnet             |       |
